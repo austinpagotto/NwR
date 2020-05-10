@@ -3,7 +3,7 @@ const app = express();
 
 // Simple get request when landing page is reached
 app.get("/", (req, res) => {
-  res.send({ hi: "there" });
+  res.send({ bye:'Buddy'});
 });
 
 // This figures out what port to listen to Heroku will inject this environment variable or for development we use 5000
