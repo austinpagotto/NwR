@@ -9,6 +9,12 @@ const User = mongoose.model("users");
 passport.serializeUser((user,done)=>{
   done(null,user.id);
 })
+
+passport.deserializeUser((id,done)=>{
+  User.findById(id).then(user=>{
+    done(null,user);
+  })
+})
 // use passport with google oauth to get and store google credentials for log in
 passport.use(
   new GoogleStrategy(
