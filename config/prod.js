@@ -7,9 +7,3 @@ module.exports = {
 }
 
 
-// module.exports = {
-//     googleClientID:'994154553205-082l1osd2hatgnc73a16am110qn9ffrh.apps.googleusercontent.com',
-//     googleClientSecret:'wK46fnaIXyXyjFQj0D08FzWD',
-//     mongoURI:'mongodb+srv://austin:materazzi93@cluster0-k0exd.mongodb.net/emaily-prod?retryWrites=true&w=majority',
-//     cookieKey:'grewggggkkfldmlsprod'
-// }
